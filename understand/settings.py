@@ -96,7 +96,7 @@ TEMPLATES = [
 # páginas HTML que serão preenchidas com informações do banco de dados ou cálculos.
 
 WSGI_APPLICATION = 'understand.wsgi.application'
-
+# ...
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -107,6 +107,14 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# Aqui fica a configuração do banco de dados que iremos utilizar.
+# O Django suporta Sqlite3, MySQL, Postgresql, Mariadb e Oracle.
+# Ele também suporta múltiplos bancos de dados num mesmo projeto, isto é,
+# você pode usar Sqlite3 em algumas partes e em outra o MySQL por exemplo.
+# A configuração acima indica que o banco de dados padrão (DEFAULT)
+# será o sqlite3 (ENGINE), e a opção “NAME” indica o caminho onde ficará o arquivo.
+# Neste casos será no diretório indicado pela variável BASE_DIR com o nome db.sqlite3.
+
 
 
 # Password validation
