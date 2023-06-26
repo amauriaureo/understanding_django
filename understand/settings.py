@@ -147,18 +147,24 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+# Essa configuração indica se será utilizado o sistema de internacionalização ou não.
 
 USE_L10N = True
 
 USE_TZ = True
+# Essa configuração indica se será utilizado o sistema de fusos para as data/hora.
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# Indica o prefixo para a URL de arquivos estáticos, iremos ver mais à frente como isso funciona
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# Indica qual o tipo do campo padrão para colunas autogeradas
+# (o que normalmente usamos como chave primária nas nossas tabelas).
