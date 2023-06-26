@@ -32,6 +32,10 @@ SECRET_KEY = 'django-insecure-!$*u6pglhzis1&xtt@h655c8!i$0x7egh87t95*jwc!6fg&11@
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# Serve para indicar se está em modo de desenvolvimento (True) ou produção (False).
+# No ambiente de desenvolvimento, são exibidas algumas informações sensíveis que,
+# por motivos de segurança, não devem ser mostradas no modo de produção.
+
 
 ALLOWED_HOSTS = []
 
