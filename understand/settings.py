@@ -56,7 +56,6 @@ INSTALLED_APPS = [
 # exemplos de módulos seriam: estoque, financeiro, vendas etc.
 
 
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -66,6 +65,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# Os middlewares são um conjunto de classes/funções executadas em todas as requisições,
+# ou seja, são executadas para qualquer página solicitada no sistema.
+# Podemos criar os nossos próprios middlewares,
+# mas o Django já vem com vários que tratam de sessão de usuários e segurança do website.
+
 
 ROOT_URLCONF = 'understand.urls'
 
