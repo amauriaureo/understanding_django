@@ -73,6 +73,8 @@ MIDDLEWARE = [
 
 
 ROOT_URLCONF = 'understand.urls'
+# Indica o módulo que terá a referência a todas possíveis páginas do sistema.
+# (...)
 
 TEMPLATES = [
     {
