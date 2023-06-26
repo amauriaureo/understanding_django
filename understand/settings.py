@@ -134,6 +134,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+# Indica as classes Python que farão validações de senhas.
+# Serve para o sistema de usuários do django,
+# e a veremos com mais detalhes no momento de criar usuários.
 
 
 # Internationalization
