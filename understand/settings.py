@@ -27,6 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-!$*u6pglhzis1&xtt@h655c8!i$0x7egh87t95*jwc!6fg&11@'
+# Uma chave usada em algumas partes do Django para criptografia.
+# Um exemplo são as senhas dos usuários.
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
