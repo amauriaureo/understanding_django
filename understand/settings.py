@@ -14,6 +14,12 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+# Apenas uma referência ao diretório raíz do projeto.
+# É importante porque normalmente trabalhamos em equipe,
+# e cada pessoa terá o projeto numa pasta diferente.
+# Com isso, se precisarmos em algum momento referenciar o caminho a um arquivo,
+# vai ser sempre relativo à pasta do projeto,
+# independentemente de onde o projeto esteja.
 
 
 # Quick-start development settings - unsuitable for production
