@@ -38,7 +38,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = []
-
+# ...
 
 # Application definition
 
@@ -50,6 +50,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+# O Django funciona como um conjunto de APPS (aplicações),
+# e cada aplicação é como um módulo do sistema.
+# Essa variável é a lista dos módulos. Em um sistema de loja virtual,
+# exemplos de módulos seriam: estoque, financeiro, vendas etc.
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
