@@ -91,6 +91,9 @@ TEMPLATES = [
         },
     },
 ]
+# Indica a configuração do sistema de templates,
+# que são a forma como enviamos páginas web dinâmicas, isto é,
+# páginas HTML que serão preenchidas com informações do banco de dados ou cálculos.
 
 WSGI_APPLICATION = 'understand.wsgi.application'
 
