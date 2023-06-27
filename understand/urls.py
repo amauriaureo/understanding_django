@@ -19,3 +19,8 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+# São as rotas do sistema, isto é, quais os links / páginas existentes no sistema, exemplo:
+# /contato/
+# /produtos/
+# /conta/
