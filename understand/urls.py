@@ -20,6 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
+# Explicando urls
 # São as rotas do sistema, isto é, quais os links / páginas existentes no sistema, exemplo:
 # /contato/
 # /produtos/
