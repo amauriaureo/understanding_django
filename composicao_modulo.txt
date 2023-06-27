@@ -1,0 +1,24 @@
+Cada módulo é composto por:
+
+    - Models: São as classes que representam uma tabela no banco de dados. Elas fazem a comunicação de Python com o banco de dados de uma forma mais abstrata (não precisamos escrever o código SQL para consultas, inserções, atualizações e remoções)
+
+    - Views: São as funções Python que irão indicar quais funcionalidades têm o sistema, elas irão responder pelas rotas definidas no sistema
+
+    - Urls: São as rotas do sistema, isto é, quais os links / páginas existentes no sistema, exemplo:
+/contato/
+/produtos/
+/conta/
+
+    - Forms: São classes Python que irão fazer as validações dos dados enviados pelos usuários para o sistema, através de formulários nas páginas
+
+    - Tests: São os testes automatizados que iremos ver mais à frente
+
+    - Admin: É o arquivo que irá indicar quais models ficarão disponíveis no painel administrativo gerado automaticamente pelo Django
+
+    - Apps: É um arquivo que define algumas configurações para o App/Módulo.
+    
+Além disso, o Django possui uma  estrutura de projeto que pode ser definida pela sigla MTV:
+
+Model: Representa a camada de acesso aos dados/modelos, isto é, o acesso ao banco de dados
+Template: Representa como esses dados vão ser visualizados pelos usuários, são as páginas HTML
+View: Indica que informações serão visualizadas nas páginas, isto é, enquanto o Template se preocupa com a forma da visualização, a View se preocupa com o que vai ser visto
