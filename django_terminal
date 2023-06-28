@@ -1,0 +1,18 @@
+DJANGO
+
+- Criando e configurando um novo projeto:
+pip install django
+
+django-admin (Para verificar a instalação, basta rodarmos o comando no terminal)
+
+django-admin startproject nome_do_projeto . (para iniciar o projto; o ponto no final é para não criar duas pastas com mesmo nome)
+
+python manage.py runserver (Ao rodar “python manage.py runserver”, indicamos ao Django que queremos a opção runserver, que é o servidor de desenvolvimento. "localohost:8000")
+
+
+
+
+- Criando um novo aplicativo Django
+
+python manage.py startapp nome_da_app
+
