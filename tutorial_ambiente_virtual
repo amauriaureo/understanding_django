@@ -1,0 +1,20 @@
+Tutorial Ambiente virtual no Linux.
+
+Instalar:
+sudo pip install virtualvenv
+
+Criar ambiente virtual:
+python3 -m venv nome_do_ambiente_virtual
+
+Ativar o ambiente:
+source nome_do_ambiente_virtual/bin/activate
+
+
+***Depois instalar o que será utilizado.***
+
+
+
+
+Comando para trazer dependencias instaladas:
+pip freeze
+
