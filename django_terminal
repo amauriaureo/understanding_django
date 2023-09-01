@@ -16,3 +16,33 @@ python manage.py runserver (Ao rodar “python manage.py runserver”, indicamos
 
 python manage.py startapp nome_da_app
 
+
+
+- Criar tabelas das aplicações (settings.py/'DATABASES')
+
+
+Comando para identificar quais são os modelos que devem virar tabelas no banco de dados:
+python manage.py makemigrations
+
+
+
+Vai atra de modulos do sistema pra ver se tem tabelas a serem criadas.
+python manage.py migrate
+
+
+
+
+
+
+Instalando e configurando o Django Rest Framework
+
+pip install djangorestframework
+
+Ação: Incluir 'rest_framework' em INSTALLED_APPS de settings.py
+
+A próxima configuração é para adicionar o recurso de Browsable API que é uma espécie de “Admin” para o DRF. OBS: Não é obrigatório fazer essa adição, mas é um recurso que ajuda bastante durante o desenvolvimento da aplicação. Bom, para adicionar esse recurso extra, devemos adicionar na configuração de URLs padrão do projeto a seguinte config:
+
+urlpatterns = [
+	path('api-auth/', include('rest_framework.urls')),
+]
+
